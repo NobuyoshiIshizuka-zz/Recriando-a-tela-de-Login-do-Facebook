@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="Nobuyoshi Ishizuka"> 
-    <title>Recliando a tela de Login do Facebook</title>
+    <meta name="author" content="Nobuyoshi Ishizuka">
+    <title>Recriando a tela de Login do Facebook</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,31 +16,144 @@
         <div class="center">
             <div class="logo">
                 <h2>Facebook</h2>
-            </div><!--logo-->
+            </div>
+            <!--logo-->
             <form method="POST" class="form-login">
                 <div class="form-element">
                     <p>E-mail ou telefone</p>
                     <input type="email">
-                </div><!--for-element-->
+                </div>
+                <!--for-element-->
                 <div class="form-element">
                     <p>Senha</p>
                     <input type="password">
-                </div><!--for-element-->
+                </div>
+                <!--for-element-->
                 <div class="form-element">
                     <input type="submit" name="acao" value="Enviar">
-                </div><!--for-element-->
+                </div>
+                <!--for-element-->
             </form>
             <div class="clear"></div>
-        </div><!--center-->
+        </div>
+        <!--center-->
     </header>
 
     <section class="main">
         <div class="center">
             <div class="img-pessoas">
                 <img src="img/img-facebook.png" alt="imagem de pessoas">
-            </div><!--img-pessoas-->
-        </div><!--center-->
+            </div>
+            <!--img-pessoas-->
 
-    </section><!--main-->
+            <div class="abrir-conta">
+                <h2>Abra sua conta</h2>
+                <h3>É gratuito e sempre será</h3>
+
+                <form class="criar-conta">
+                    <div class="w50">
+                        <input type="text" placeholder="Nome">
+                    </div>
+                    <!--w50-->
+
+                    <div class="w50">
+                        <input type="text" placeholder="Sobrenome">
+                    </div>
+                    <!--w50-->
+
+                    <div class="w100">
+                        <input type="email" placeholder="email">
+                    </div>
+                    <!--w100-->
+
+                    
+                    <div class="w100">
+                            <input type="password" placeholder="Senha">
+                    </div><!--w100-->
+
+                    <div class="w100">
+                        <h2>Data de Nascimento</h2>
+                        <select name="nascimento-dia" class="nascimento">
+                            <option value="1">1</option>
+                        </select>
+
+                        <select name="nascimento-mes" class="nascimento">
+                                <option value="0">Junho</option>
+                            </select>
+
+                            <select name="nascimento-ano" class="nascimento">
+                                    <option value="1">2019</option>
+                                </select>
+                                <div class="clear"></div>
+                    </div><!--W100-->
+                    
+                    <div class="w100">
+
+                    </div><!--w100-->
+                        <div class="input-radio">
+                            <input type="radio" name="sexo" value="Masculino">
+                            <h2>Masculino</h2>
+                        </div><!--input-radio-->
+
+                        <div class="input-radio">
+                            <input type="radio" name="sexo" value="Feminino">
+                            <h2>Feminino</h2>
+                            <div class="clear"></div>
+                            
+                        </div><!--input-radio-->
+
+                    <div class="w100">
+                        <input type="submit" name="acao" value="Cadastrar">
+                    </div>
+                    <div class="clear"></div>
+
+                </form>
+                <!--criar-conta-->
+            </div>
+            <!--abrir-conta-->
+        </div>
+        <!--center-->
+        <div class="clear"></div>
+    </section>
+    <!--main-->
+
+    <section class="linguas">
+        <div class="center">
+        <a class="selected-lingua" href="#">Português (BR)</a>
+        <a href="#">Português (PT)</a>
+        <a href="#">Inglês (USA)</a>
+        <a href="#">Inglês (ENG)</a>
+        <a href="#">Japonês (JAP)</a>
+        <a href="#">Alemão (GER)</a>
+    </div>
+    
+            <div style="border: 0; padding-top:10px;" class="center">
+            <a href="#">Cadastre-se</a>
+            <a href="#">Entrar </a>
+            <a href="#">Messenger </a>
+            <a href="#">Facebook Lite</a>
+            <a href="#">Watch</a>
+            <a href="#">Pessoas</a>
+            <a href="#">Categorias de Páginas</a>
+            <a href="#">Locais</a>
+            <a href="#">Jogos</a>
+            <a href="#">Marketplace</a>
+            <a href="#">Grupos</a>
+            <a href="#">Instagram</a>
+            <a href="#">Instagram</a>
+            <a href="#">Local</a>
+            <a href="#">Campanhas de arrecadação de fundos</a>
+            <a href="#">Serviços</a>
+            <a href="#">Sobre</a>
+            <a href="#">Criar Anúncio</a>
+            <a href="#">Criar Página</a>
+            <a href="#">Desenvolvedores</a>
+            <a href="#">Carreiras</a>
+            <a href="#">Privacidade</a>
+            <a href="#">Termos</a>
+            <a href="#">Ajuda</a>
+        </div>
+        
 </body>
+
 </html>
