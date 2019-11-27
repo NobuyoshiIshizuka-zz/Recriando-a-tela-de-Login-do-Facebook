@@ -15,7 +15,7 @@
 .clear{clear: both}
 
 header{
-    background: #3665af;
+    background: #2851A3;
     padding: 8px 0;
 }
 
@@ -55,7 +55,7 @@ form.form-login{
 .form-element input[type=submit]{
     cursor: pointer;
     border: 0;
-    background: #1969e5;
+    background: #1877F2;
     border:2px solid #215ab2;
     color: white;
     padding: 3px 5px;
@@ -183,4 +183,52 @@ border-radius: 8px;
         padding-right: 8px;
         padding-bottom: 10px;
         border-bottom: 1px solid #ccc;
+    }
+
+    @media screen and (max-width: 768px){
+        .logo{
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+        form.form-login{
+            margin-top: 17px;
+            float: none;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+        }
+
+        .form-login .form-element{
+            display: block;
+            margin-right: 10px 0;
+        }
+        
+        .form-element p{
+            color: white;
+            font-size: 14px;
+        }
+        
+        .form-element input[type=email],
+        .form-element input[type=password]{
+            margin-top: 4px;
+            border: 0;
+            height: 22px;
+            padding-left: 3px;
+            width: 100%;
+            max-width: 320px;
+        }
+
+        .form-element input[type=submit]{
+            width: 140px
+        }
+
+        .img-pessoas{
+            display: none;
+        }
+
+        .abrir-conta{
+            width: 100%;
+        }
+        
     }
